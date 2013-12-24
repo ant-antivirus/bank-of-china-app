@@ -1,0 +1,86 @@
+/* CSS Document */
+
+/* center */
+body{ margin:0px;padding:0px;
+	background-color:#fff;
+	/* background-image: url(../images/bg.jpg); */
+}
+body, table, tr, td, p
+{
+	font:normal 11px/14px verdana;
+	color:#808080;
+	text-decoration:none;
+}
+img {
+	border:0px;
+}
+.clear{
+	clear:both;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+
+
+
+.divPage1_bg{
+	background:url(../images/page1.jpg) no-repeat left top;
+	width:810px;
+	height:1200px;
+	float:left;
+}
+.divPage1_btn{
+	padding:590px 0 0 455px;
+}
+
+.divPage2_bg{
+	background:url(../images/page2.jpg) no-repeat left top;
+	width:810px;
+	height:1200px;
+	float:left;
+}
+.divPage2_btn{
+	padding:20px 0 0 570px;
+}
+
+
+/* Alek edit */
+/* Swipe 2 required styles */
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  height: 1200px;
+  width: 810px;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+.panel {
+	width: 810px;
+	float: left;
+}
+
+#mySwipe div b {
+  display:block;
+  font-weight:bold;
+  color:#14ADE5;
+  font-size:20px;
+  text-align:center;
+  margin:0px;
+  padding:0px 0px;
+  box-shadow: 0 1px #EBEBEB;
+  background: #fff;
+  border-radius: 3px;
+  border: 0px solid;
+  border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+}
